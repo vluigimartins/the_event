@@ -3,11 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Event</title>
+    <title>O Evento</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
-    <img src="./images/sparkler-4724867_1280.jpg" alt="">
+    <header class="hero">
+        <div class="container">
+            <ul class="hero__logo">
+                <li>
+                    <img class="hero__logo__1" src="./images/birthday-party-295401_1280.png" alt="Balões">
+                </li>
+                <div class="container">
+                    <li>
+                        <img class="hero__logo__2" src="./images/birthday-party-295401_1280.png" alt="Balões">
+                    </li>
+                </div>
+            </ul>
+            <p class="hero__text">
+                O principal evento do ano começa <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos"> 
+                    <li class="infos-bar__infos__item">
+                        <b>Localiazação</b>
+                        Home
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Dia</b>
+                        28/10/2023 ás 20hrs
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <img class="infos-bar__infos__imagem" src="./images/happy-birthday-1212168_1280.jpg" alt="Bolo">
+                    </li>
+                </ul>
+            </div>
+            <img class="hero__logo3" src="./images/gift-box-310224_1280.png" alt="Presentes">
+        </div>
+    </header>
+    
     <script src="scripts/main.js"></script>
 </body>
 </html>
